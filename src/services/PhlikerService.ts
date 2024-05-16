@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default class PhlikerService{
     private API_NAME = "flickr.photos.search";
-    private API_KEY = "8e7e3c695c0da851999af50a0cb86838";
+    private API_KEY = "";// put your API key here
     private API_URL = "https://www.flickr.com/services/rest/" + "?&method=" + this.API_NAME + "&api_key=" + this.API_KEY;
     private PHOTO_INFO_URL = "https://www.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=" + this.API_KEY + "&photo_id=";
     
