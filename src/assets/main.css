@@ -1,0 +1,53 @@
+a.navbar-brand{
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff!important;
+}
+#main-view{
+	margin-top: 20%;
+}
+#grid-view{
+	margin-top: 2%;
+	margin-bottom:5%;
+}
+#grid-images{
+	padding: 0;
+	margin:0;
+}
+#grid-images img{
+	width: 190px;
+	height: 190px;
+	cursor: pointer;
+}
+th,td{
+	width: 200px;
+	padding: 15px;
+	margin:15px;
+	border: 1px solid #000;
+	background-color:#6c757d;
+	color: #fff;
+}
+.background{
+	background-color: #000;
+	color: #fff;
+}
+.plus-button-container{
+	position: relative;
+	left: 45%;
+	cursor: pointer;
+}
+#details-view{
+	margin-top: 5%;
+}
+#show-previous-image{
+cursor: pointer;
+font-size: 50px;
+font-weight: bold;
+color: #6c757d;
+}
+#show-next-image{
+cursor: pointer;
+font-size: 50px;
+font-weight: bold;
+color: #6c757d;
+}
